@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#the-player {
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    display: none;
+}
+
+#question{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#yes-no{
+    text-align: center;
+    padding: 15px;
+    display: block;
+}
+
+#lets-play, #lets-not, #ansBtn, .choice-btn, #restart, .next-round-btn, #restart-game, #end-game{
+    background-color: black;
+    color: white;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color .3s ease;
+}
+
+#lets-play:hover, #lets-not:hover #ansBtn:hover, .choice-btn:hover, #restart:hover, .next-round-btn:hover, #restart-game:hover, #end-game:hover {
+    background-color: #333;
+}
+
+#result-display {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#result-display button{
+    display: inline-block;
+
+}
+
+#game-area {
+    text-align: center;
+}
+
+.choice-btn {
+    background-color: black;
+    color: white;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+#restart {
+    background-color: black;
+    color: white;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+#next-round {
+    background-color: black;
+    color: white;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.control-btn{
+    background-color: black;
+    color: white;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#player-choice, #computer-choice, #round-result, #score{
+    font-size: 20px
+}
+
+#choices p {
+    font-size: 20px;
+}
+
+.next-round, .restart-game{
+    margin: 5px;
+}
+
+.next-round, .restart-game{
+    display: inline-block;
+
+}
+
+.control-buttons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.control-buttons-container #under-score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#control-buttons-container .control-btn{
+    display: inline-block;
+}
+
+.control-btn{
+    background-color: black;
+    color: white;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.control-btn:hover {
+    background-color: #333;
+}
+
+.endgame {
+    background-color: black;
+    color: white;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#last-line{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+#play-again button {
+    background-color: black;
+    color: white;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#the-player input {
+    height: 20px;
+    font-size: 20px;
+}
+
