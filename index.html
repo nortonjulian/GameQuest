@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Rock, Paper, Scissors</h1>
+            <div id="question">
+                <p>Do you want to play?</p>
+            </div>
+            <div id="yes-no">
+                <button id="lets-play">Yes</button>
+                <button id="lets-not">No</button>
+            </div>
+            <div id="the-player">
+                <label for="player-name">Enter your name:</label>
+                <input type="text" id="player-name" placeholder="Your Name">
+                <button id="ansBtn">Submit</button>
+            </div>
+            <div id="game-area">
+                <h2 id="welcome-message"></h2>
+                <div id="choices">
+                    <p>Choose your move:</p>
+                    <button class="choice-btn" data-choice="Rock">"Rock"</button>
+                    <button class="choice-btn" data-choice="Paper">"Paper"</button>
+                    <button class="choice-btn" data-choice="Scissors">"Scissors"</button>
+                </div>
+                <div id="result-display">
+                    <div>
+                        <p id="player-choice"></p>
+                    </div>
+                    <div>
+                        <p id="computer-choice"></p>
+                    </div>
+                    <div>
+                        <p id="round-result"></p>
+                    </div>
+                    <p id="score"></p>
+                </div>
+                <div class="control-buttons-container">
+                    <div id="under-score">
+                        <button class="next-round control-btn">Next Round</button>
+                        <button class="restart-game control-btn">Restart Game</button>
+                    </div>
+                    <div id="last-line">
+                        <button class="endgame" class="control-btn">Endgame</button>
+                    </div>
+                    <div id="play-again">
+                        <button>Play Again</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
